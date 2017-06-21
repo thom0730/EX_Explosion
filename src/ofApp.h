@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxRemoteUIServer.h"
 #include "ofxTimeMeasurements.h"
+#include "ofxGui.h"
 
 #include "Explosion.h"
 
@@ -32,17 +33,21 @@ public:
     ofTexture * fireTex;
     ofTexture * explosionTex;
     
-    float strength;
-    int numP;
-    float friction;
-    float life;
-    float offset;
-    float spawnOffset;
-    float smokeLife;
-    float gravity;
-    int pixelScale;
+    ofxFloatSlider strength;
+    ofxIntSlider numP;
+    ofxFloatSlider friction;
+    ofxFloatSlider life;
+    ofxFloatSlider offset;
+    ofxFloatSlider spawnOffset;
+    ofxFloatSlider smokeLife;
+    ofxFloatSlider gravity;
+    ofxIntSlider pixelScale;
+    ofxPanel gui;
     
     ofTexture bg;
+    
+    
+    
     
     
 };

@@ -1,5 +1,6 @@
 ofxColorGradient
 ofxExplosion
+ofxGui
 ofxOsc
 ofxRemoteUI
 ofxTimeMeasurements
